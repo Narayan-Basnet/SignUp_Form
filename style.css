@@ -1,0 +1,26 @@
+.cancelbutton{
+    height: 30px;
+    width:200px;
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+.signupbutton{
+    height: 30px;
+    width:200px;
+    background-color:green;
+    padding: 10px 10px 10px 10px;
+    color: white;
+} 
+.container{
+    height: 425px;
+    width: 450px;
+    border: 1px solid aqua;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+@mediaScreen (max-width: 300px){
+    .cancelbutton, .signupbutton {
+      width: 100%;
+    }
+}
