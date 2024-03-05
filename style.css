@@ -19,7 +19,7 @@
     padding-left: 16px;
     padding-right: 16px;
 }
-@mediaScreen (max-width: 300px){
+@media(max-width: 300px){
     .cancelbutton, .signupbutton {
       width: 100%;
     }
